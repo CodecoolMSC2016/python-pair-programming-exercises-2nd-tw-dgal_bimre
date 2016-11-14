@@ -12,7 +12,8 @@ def palindrome(string):
 
 
 def main():
-    print(palindrome("A nut for a jar of tuna"))
+    userInput = input("Enter a word or sentence to check: ")
+    print(palindrome(userInput))
     return
 
 
